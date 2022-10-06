@@ -1,5 +1,7 @@
 # Incident-IPGeoLocationInfo
 
+Sentinel Playbook to lookup IPv4 and fairly reliable IPv6
+
 1. Deploy from a custom template.
 2. Load `azuredeploy.json`.
 3. Enter your API key from [ipgeolocation](https://ipgeolocation.io/signup.html).
