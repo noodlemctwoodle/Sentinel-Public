@@ -1,4 +1,4 @@
-let timeFrame = ago(30d);
+let timeFrame = ago(1d);
 let Categories =
     union *
     | summarize Size = count() by Category = Type
