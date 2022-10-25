@@ -15,6 +15,7 @@ let knownTables = Usage
     | project
         ['Log Type'] = iif(isnotempty(Category), Category, "Other"),
         ['Table Size'] = iif(isnotempty(Category), size, sizeOther),
-        ['Estimated cost'] = iif(isnotempty(Category), size * round(4, 1), sizeOther * round(4, 1));
+        ['Estimated cost'] = iif(isnotempty(Category), size * round(4, 1), sizeOther * round(4, 1))
+    ;
 knownTables
 | order by ['Table Size'] desc
